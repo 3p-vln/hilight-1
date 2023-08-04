@@ -1752,9 +1752,7 @@ section .section__img-8 {
     line-height: 34px
 }
 
-.blog .news__content-item{
-
-}
+.blog .news__content-item {}
 
 .news__content-item .main__link {
     left: 17px;
@@ -1886,7 +1884,7 @@ section .section__img-8 {
     outline: 0
 }
 
-.subscribe-button img{
+.subscribe-button img {
     margin-right: -17px;
 }
 
@@ -2790,6 +2788,106 @@ section .section__img-8 {
         left: -238px;
         top: 218px;
         width: 297px;
+    }
+
+    .blog__top .container,
+    .our-projects__top .container {
+        align-items: flex-start;
+        padding: 66px 106px;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .blog__top .title {
+        font-size: 32px;
+    }
+
+    .filter {
+        display: flex;
+        gap: 26px;
+    }
+
+    .news__content-item .news__content-title {
+        max-width: 191px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .news__content-item--long .news__content-title {
+        max-width: 268px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .news__content-item .news__content-wrapper {
+        padding: 52px 47px;
+    }
+
+    .news__content-item--long .news__content-wrapper {
+        color: #080808;
+        padding: 64px 48px;
+    }
+
+    .news__content-item--long .text {
+        max-width: 345px;
+        margin-bottom: 5px;
+    }
+
+    .news__content-item .main__link {
+        left: 17px;
+        top: 15px;
+    }
+
+    .news__content-item--reverse .text {
+        display: none;
+    }
+
+    .news__content-item--reverse .news__content-wrapper {
+        color: #080808;
+        padding: 74px 45px;
+    }
+
+    .news__content-item--reverse .main__link {
+        left: 17px;
+        top: 20px;
+    }
+
+    .news__pagination {
+        margin-top: 57px;
+    }
+
+    .newsletter .title {
+        max-width: 407px;
+        line-height: 39px;
+        font-size: 31px;
+    }
+
+    .newsletter .newsletter__content {
+        gap: 27px;
+        margin-top: 20px;
+    }
+
+    .newsletter .text {
+        max-width: 346px;
+    }
+
+    .newsletter input {
+        width: 343px;
+        font-size: 16px;
+        margin-left: 18px;
+    }
+
+    .subscribe-button img {
+        margin-right: 2px;
+    }
+
+    .newsletter .container {
+        padding-top: 125px;
+        padding-bottom: 171px;
+        margin-top: 118px;
+        padding-right: 102px;
+        padding-left: 107px;
     }
 }
 
