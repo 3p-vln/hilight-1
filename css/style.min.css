@@ -3439,6 +3439,19 @@ section .section__img-8 {
     .contacts__bot .button {
         display: block;
     }
+
+    .main__link {
+        font-size: 8px;
+    }
+
+    .main__link::after {
+        left: 90px;
+        width: 45px;
+    }
+
+    .filter {
+        gap: 15px;
+    }
 }
 
 @media (max-width:530px) {
@@ -3705,6 +3718,16 @@ section .section__img-8 {
 
     .contacts__info-city {
         margin-bottom: 30px;
+    }
+
+    .blog__top .container,
+    .our-projects__top .container {
+        padding: 15px 1px;
+        margin-bottom: 55px;
+    }
+
+    .blog__top .title {
+        font-size: 26px;
     }
 }
 
