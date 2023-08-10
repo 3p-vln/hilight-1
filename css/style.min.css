@@ -3475,6 +3475,10 @@ section .section__img-8 {
         padding-bottom: 0;
         padding-top: 0;
     }
+
+    .notfound__content-top {
+        gap: 65px;
+    }
 }
 
 @media (max-width:530px) {
@@ -3840,6 +3844,10 @@ section .section__img-8 {
     .newsletter input {
         width: 330px;
         margin-left: 1px;
+    }
+
+    .notfound__content-top {
+        gap: 0;
     }
 }
 /*
