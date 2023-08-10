@@ -339,7 +339,8 @@ body {
 }
 
 .menu__list {
-    gap: 48px
+    gap: 48px;
+    margin-right: 493px;
 }
 
 .menu__buttons {
@@ -2413,6 +2414,7 @@ section .section__img-8 {
 
     .menu__list {
         gap: 33px;
+        margin-right: 212px;
     }
 
     .menu__buttons {
@@ -3450,6 +3452,10 @@ section .section__img-8 {
     .filter {
         gap: 15px;
     }
+
+    .dropdown .button, .dropdown .menu__list-item:nth-last-child(1) {
+        display: block;
+    }
 }
 
 @media (max-width:530px) {
@@ -3472,10 +3478,7 @@ section .section__img-8 {
     .dropdown .menu__list {
         margin-left: 28%;
         align-items: center;
-    }
-
-    .dropdown .button, .dropdown .menu__list-item:nth-last-child(1) {
-        display: block;
+        margin-right: 0;
     }
 
     .swiper-slide img {
