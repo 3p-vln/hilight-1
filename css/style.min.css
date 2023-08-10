@@ -416,8 +416,8 @@ body {
 }
 
 .modal__wrapper {
-    padding: 55px 120px;
-    margin: 40px 100px;
+    padding: 55px 123px;
+    margin: 76px 0;
     background: #f2f2f2;
     box-shadow: 0 2px 24px rgba(0, 0, 0, .04)
 }
@@ -451,7 +451,7 @@ body {
 
 .modal__content {
     max-width: 800px;
-    padding: 44px 0;
+    padding: 43px 18px;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, .04)
 }
@@ -461,12 +461,12 @@ body {
     font-size: 11px;
     line-height: 13px;
     letter-spacing: .06em;
-    margin-bottom: 25px
+    margin-bottom: 20px
 }
 
 .modal__title {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     font-size: 22px
 }
 
@@ -474,7 +474,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
     margin: 0 50px
 }
 
@@ -489,7 +489,7 @@ body {
 
 .input {
     width: 100%;
-    padding: 10px 0;
+    padding: 8px 0;
     outline: 0;
     border: none;
     border-bottom: 1px solid rgba(214, 214, 214, .3);
@@ -523,14 +523,14 @@ body {
 }
 
 .modal__content-bot {
-    padding: 44px 70px
+    padding: 49px 69px
 }
 
 .modal__content-groups {
     position: relative;
     display: flex;
     justify-content: space-between;
-    gap: 40px
+    gap: 33px
 }
 
 .modal__content-groups::after {
@@ -548,7 +548,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    gap: 40px
+    gap: 55px
 }
 
 .modal__content-group .radio-group {
@@ -563,7 +563,7 @@ body {
 
 .modal__content-group label {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-weight: 500;
     font-size: 9px;
     line-height: 11px;
@@ -686,16 +686,17 @@ body {
 .modal__content-input label::after {
     content: "+";
     position: absolute;
-    left: -34px;
-    font-weight: 600;
-    font-size: 15px;
-    color: #3a3e4b
+    left: -38px;
+    top: 17px;
+    font-weight: 300;
+    font-size: 23px;
+    color: #3a3e4b;
 }
 
-.modal__content-button:hover {
+.modal__content-button {
     background-color: #3a3e4b;
     color: #fff;
-    transition: all .3s ease-in
+    margin-top: 2px;
 }
 
 .modal__content-text {
@@ -3466,7 +3467,8 @@ section .section__img-8 {
         gap: 15px;
     }
 
-    .dropdown .button, .dropdown .menu__list-item:nth-last-child(1) {
+    .dropdown .button,
+    .dropdown .menu__list-item:nth-last-child(1) {
         display: block;
     }
 
@@ -3768,7 +3770,8 @@ section .section__img-8 {
         gap: 5px;
     }
 
-    .news__content-item--long .news__content-wrapper, .news__content-item--long img {
+    .news__content-item--long .news__content-wrapper,
+    .news__content-item--long img {
         width: 100%;
         height: 62%;
         right: 0;
@@ -3781,7 +3784,7 @@ section .section__img-8 {
     .news__content-item--long {
         height: 354px;
     }
-    
+
     .news__content-item .news__content-wrapper {
         padding: 23px 25px;
     }
@@ -3812,7 +3815,8 @@ section .section__img-8 {
         width: 56px;
     }
 
-    .news__content-item--long .news__content-wrapper, .news__content-item--long img {
+    .news__content-item--long .news__content-wrapper,
+    .news__content-item--long img {
         width: 100%;
         left: 0;
     }
@@ -3850,6 +3854,7 @@ section .section__img-8 {
         gap: 0;
     }
 }
+
 /*
 @media screen and (max-width:1300px) {
     .swiper-slide-next .swiper-slide__content {
