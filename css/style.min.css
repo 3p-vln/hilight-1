@@ -62,48 +62,6 @@ body {
     flex-direction: column
 }
 
-.preloader {
-    z-index: 100;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background: #000;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: .26em;
-    color: #fafafa;
-    text-transform: uppercase
-}
-
-.preloader span {
-    opacity: 0
-}
-
-.preloader__hilight {
-    position: absolute
-}
-
-.preloader__hilight.active span {
-    opacity: 1;
-    transition: opacity 1s ease-in
-}
-
-.preloader__number {
-    position: relative;
-    left: 20px;
-    opacity: 0;
-    transition: opacity 1s ease-out
-}
-
-.preloader__number.active {
-    opacity: 1
-}
-
 .container {
     margin: 0 auto;
     max-width: 1314px
