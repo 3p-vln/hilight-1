@@ -2954,6 +2954,39 @@ section .section__img-8 {
     .contact .contacts__content {
         padding-left: 0;
     }
+
+    .modal__wrapper {
+        padding: 0px 105px;
+        margin: 45px 0;
+    }
+
+    .modal__content {
+        max-width: 559px;
+        padding: 76px 45px;
+    }
+
+    .modal__title {
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+    }
+
+    .modal__content-inputs {
+        gap: 33px;
+    }
+
+    .modal__content-bot {
+        padding: 13px 95px;
+        padding-bottom: 65px;
+    }
+
+    .modal__content-groups {
+        gap: 33px;
+        flex-wrap: wrap;
+    }
+
+    .modal__content-group {
+        gap: 68px;
+    }
 }
 
 @media (max-width:960px) {
