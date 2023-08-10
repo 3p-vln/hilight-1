@@ -755,12 +755,12 @@ body {
 }
 
 .notfound__content {
-    padding-bottom: 140px
+    padding-bottom: 107px
 }
 
 .notfound__content-top {
     display: flex;
-    gap: 190px
+    gap: 181px
 }
 
 .block-name__content {
@@ -794,7 +794,8 @@ body {
     font-size: 14px;
     line-height: 24px;
     opacity: .7;
-    margin: 25px 0
+    padding-top: 12px;
+    padding-bottom: 24px;
 }
 
 .notfound__content-link {
@@ -805,7 +806,8 @@ body {
     line-height: 12px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    opacity: .8
+    opacity: .8;
+    top: 12px;
 }
 
 .notfound__content-link::before {
