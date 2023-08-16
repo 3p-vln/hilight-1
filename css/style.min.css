@@ -2175,11 +2175,11 @@ section .section__img-8 {
 }
 
 .about-us__stats {
-    padding: 0 70px;
+    padding: 0 67px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 100px
+    gap: 131px;
+    margin-top: 115px;
 }
 
 .about-us__stats-img {
@@ -2191,13 +2191,14 @@ section .section__img-8 {
 }
 
 .about-us__stats-img .text {
-    margin-top: 40px
+    margin-top: 52px
 }
 
 .about-us__stats-content {
     display: flex;
     flex-direction: column;
-    gap: 44px
+    gap: 44px;
+    margin-top: 5px;
 }
 
 .about-us__stats-content .text {
@@ -2227,13 +2228,14 @@ section .section__img-8 {
 }
 
 .about-us__stats-numbers .text {
-    margin-top: 0;
-    max-width: 80px;
+    margin-top: 6px;
+    max-width: 99px;
     line-height: 132%
 }
 
 .about-us__stats--second {
-    padding: 140px 70px
+    padding: 62px 82px;
+    margin-bottom: 83px;
 }
 
 .about-us__stats--second .about-us__stats-content {
@@ -2244,8 +2246,17 @@ section .section__img-8 {
 }
 
 .about-us__stats--second .about-us__stats-content .about-us__stats-container {
-    padding-left: 9%;
-    padding-bottom: 160px
+    padding-left: 118px;
+    padding-bottom: 200px;
+}
+
+.about-us__stats-container .title{
+    margin-bottom: 22px;
+}
+
+.about-us__stats-container .main__philosophy-cite {
+    min-width: 350px;
+    margin-right: 5px;
 }
 
 .about-us__stats--second .about-us__stats-content .about-us__stats-img {
@@ -2254,12 +2265,13 @@ section .section__img-8 {
 
 .about-us__stats--second .about-us__stats-content .about-us__stats-img img {
     position: relative;
-    right: 41%
+    right: 135px;
+    top: -34px;
 }
 
 .about-us__stats--second .about-us__stats-numbers {
-    margin-top: 100px;
-    max-width: 414px
+    margin-top: 96px;
+    max-width: 430px;
 }
 
 .about-us__bot {
