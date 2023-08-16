@@ -2851,6 +2851,20 @@ section .section__img-8 {
         padding-right: 102px;
         padding-left: 107px;
     }
+
+    .modal__content-input ,
+    .modal__content-text {
+        display: none;
+    }
+
+    .modal__content-inputs {
+        margin: 0 43px;
+    }
+
+    .modal__content-button{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media (max-width:1000px) {
@@ -2914,13 +2928,13 @@ section .section__img-8 {
     }
 
     .modal__wrapper {
-        padding: 0px 105px;
-        margin: 45px 0;
+        padding: 32px 25px;
+        margin: 45px 105px;
     }
 
     .modal__content {
         max-width: 559px;
-        padding: 76px 45px;
+        padding: 45px 20px;
     }
 
     .modal__title {
@@ -2933,7 +2947,7 @@ section .section__img-8 {
     }
 
     .modal__content-bot {
-        padding: 13px 95px;
+        padding: 43px 69px;
         padding-bottom: 65px;
     }
 
@@ -2944,6 +2958,10 @@ section .section__img-8 {
 
     .modal__content-group {
         gap: 68px;
+    }
+
+    .input {
+        width: 366px;
     }
 }
 
@@ -3324,6 +3342,10 @@ section .section__img-8 {
     .main__swiper .header__bot {
         margin-left: 0px;
     }
+
+    .modal__wrapper {
+        margin: 70px 0px;
+    }
 }
 
 @media (max-width:710px) {
@@ -3472,6 +3494,10 @@ section .section__img-8 {
     .notfound__content-top {
         gap: 65px;
     }
+
+    .modal__content-button{
+        display: block;
+    } 
 }
 
 @media (max-width:530px) {
@@ -3843,6 +3869,38 @@ section .section__img-8 {
 
     .notfound__content-top {
         gap: 0;
+    }
+
+    .modal__close {
+        top: 24px;
+        right: 24px;
+    }
+
+    .modal__wrapper {
+        padding: 0px 0px;
+        margin: 64px 25px;
+    }
+
+    .modal__content {
+        max-width: 325px;
+        padding: 24px 0;
+    }
+
+    .modal__content-inputs {
+        margin: 0 21px;
+    }
+
+    .input {
+        width: 285px;
+    }
+
+    .modal__content-bot {
+        padding: 59px 21px;
+        padding-bottom: 65px;
+    }
+
+    .modal__content-group {
+        gap: 59px;
     }
 }
 
