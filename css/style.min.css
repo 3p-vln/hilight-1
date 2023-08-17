@@ -2275,18 +2275,19 @@ section .section__img-8 {
 }
 
 .about-us__bot {
-    padding: 140px 10%
+    padding: 136px 136px;
+    margin-bottom: -7px;
 }
 
 .about-us__bot .title {
-    max-width: 380px;
-    margin-bottom: 130px
+    max-width: 406px;
+    margin-bottom: 125px;
+    line-height: 50px;
 }
 
 .about-us__bot-wrapper {
     display: flex;
-    justify-content: space-between;
-    gap: 34px
+    gap: 280px
 }
 
 .about-us__email {
@@ -2301,7 +2302,7 @@ section .section__img-8 {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 170.66%;
+    line-height: 39px;
     opacity: .7;
     border: none;
     padding-right: 30px;
@@ -2325,9 +2326,10 @@ section .section__img-8 {
 }
 
 .about-us__bot-content .text {
-    max-width: 360px;
+    max-width: 357px;
     opacity: 1;
-    margin-bottom: 20px
+    margin-bottom: 26px;
+    line-height: 23px;
 }
 
 .about-us__bot-links {
