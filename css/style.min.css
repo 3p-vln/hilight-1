@@ -882,7 +882,7 @@ body {
     height: 744px;
 }
 
-.about-us__swiper img{
+.about-us__swiper img {
     height: 443px;
     width: 100%;
 }
@@ -2250,7 +2250,7 @@ section .section__img-8 {
     padding-bottom: 200px;
 }
 
-.about-us__stats-container .title{
+.about-us__stats-container .title {
     margin-bottom: 22px;
 }
 
@@ -2443,6 +2443,20 @@ section .section__img-8 {
     .contacts__bot .button {
         padding: 13px 48px;
     }
+
+    .about-us__bot-wrapper {
+        gap: 75px;
+        flex-direction: column;
+    }
+
+    .about-us__bot .title {
+        max-width: 406px;
+        line-height: 50px;
+    }
+
+    .about-us__bot-content .text {
+        max-width: 100%;
+    }
 }
 
 @media (max-width:1400px) {
@@ -2467,11 +2481,25 @@ section .section__img-8 {
     .main__swiper .header__bot {
         top: 595px;
     }
+
+    .about-us__swiper img {
+        height: 443px;
+        width: 100%;
+    }
+
+    .about-us__stats {
+        gap: 108px;
+    }
 }
 
 @media (max-width:1250px) {
     .main__philosophy-group {
         max-width: 401px;
+    }
+
+    .about-us__swiper img {
+        height: 315px;
+        width: 100%;
     }
 }
 
@@ -2534,6 +2562,14 @@ section .section__img-8 {
         left: -31px;
         font-size: 27px;
         margin-top: -2px;
+    }
+
+    .position {
+        margin-bottom: 145px;
+    }
+
+    .about-us__stats--second .about-us__stats-content .about-us__stats-img img {
+        top: -105px;
     }
 }
 
@@ -2873,7 +2909,7 @@ section .section__img-8 {
         padding-left: 107px;
     }
 
-    .modal__content-input ,
+    .modal__content-input,
     .modal__content-text {
         display: none;
     }
@@ -2882,9 +2918,32 @@ section .section__img-8 {
         margin: 0 43px;
     }
 
-    .modal__content-button{
+    .modal__content-button {
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .about-us__swiper-wrapper .about-us__swiper-content {
+        padding-left: 135px;
+        max-width: 659px;
+    }
+
+    .about-us__swiper-wrapper .container {
+        gap: 90px;
+    }
+
+    .about-us__swiper img {
+        height: 295px;
+        width: 100%;
+    }
+
+    .about-us__stats {
+        padding: 0 0;
+        gap: 30px;
+    }
+
+    .about-us__stats-content .text {
+        margin-top: 15px;
     }
 }
 
@@ -3013,7 +3072,23 @@ section .section__img-8 {
         margin-left: 0px;
     }
 
+    .about-us__swiper img {
+        height: 250px;
+        width: 100%;
+    }
 
+    .about-us__swiper-wrapper .container {
+        gap: 20px;
+    }
+
+    .about-us__stats-numbers .stat-number {
+        font-size: 50px;
+        line-height: 35px;
+    }
+
+    .about-us__stats--second .about-us__stats-content .about-us__stats-img img {
+        right: 60px;
+    }
 
 }
 
@@ -3353,6 +3428,39 @@ section .section__img-8 {
         padding-top: 160px;
     }
 
+    .about-us__swiper-wrapper .swiper-navigation,
+    .about-us__swiper img {
+        display: none;
+    }
+
+    .about-us__swiper-wrapper .about-us__swiper-content .text {
+        width: 548px;
+    }
+
+    .about-us__stats-numbers {
+        gap: 70px;
+        max-width: 100px;
+    }
+
+    .about-us__stats-content {
+        gap: 25px;
+    }
+
+    .about-us__stats--second .about-us__stats-content .about-us__stats-container {
+        padding-left: 40px;
+    }
+
+    .position {
+        margin-bottom: 45px;
+    }
+
+    .about-us__stats--second .about-us__stats-numbers {
+        margin-top: 96px;
+    }
+
+    .about-us__stats--second .about-us__stats-numbers {
+        gap: 20px;
+    }
 }
 
 @media (max-width:760px) {
@@ -3516,9 +3624,53 @@ section .section__img-8 {
         gap: 65px;
     }
 
-    .modal__content-button{
+    .modal__content-button {
         display: block;
-    } 
+    }
+
+    .about-us__swiper-wrapper .about-us__swiper-content .text {
+        width: 430px;
+    }
+
+    .about-us__stats-img img {
+        display: none;
+    }
+
+    .about-us__stats {
+        margin-top: 25px;
+        gap: 0;
+    }
+
+    .about-us__stats-numbers {
+        gap: 175px;
+    }
+
+    .about-us__stats-content {
+        gap: 45px;
+    }
+
+    .about-us__stats-content .text {
+        max-width: 450px;
+    }
+
+    .about-us__stats {
+        flex-direction: column;
+    }
+
+    .about-us__stats--second .about-us__stats-content .about-us__stats-container {
+        padding-bottom: 15px;
+        margin-top: 35px;
+        margin-bottom: -35px;
+    }
+
+    .about-us__stats-container .main__philosophy-cite {
+        max-width: 420px;
+        margin-right: 0px;
+    }
+
+    .about-us__bot {
+        padding: 136px 0;
+    }
 }
 
 @media (max-width:530px) {
@@ -3922,6 +4074,23 @@ section .section__img-8 {
 
     .modal__content-group {
         gap: 59px;
+    }
+
+    .about-us__swiper-wrapper .about-us__swiper-content {
+        padding-left: 20px;
+        max-width: 300px;
+    }
+
+    .about-us__swiper-wrapper .about-us__swiper-content .text {
+        width: 332px;
+    }
+
+    .about-us__stats-numbers {
+        gap: 90px;
+    }
+
+    .about-us__stats-container .main__philosophy-cite {
+        min-width: 330px;
     }
 }
 
