@@ -882,6 +882,13 @@ body {
     height: 744px;
 }
 
+.section-swiper img {
+    width: 316px;
+    height: 390px;
+    margin-top: 59px;
+    margin-bottom: -4px;
+}
+
 .about-us__swiper img {
     height: 443px;
     width: 100%;
@@ -1576,7 +1583,7 @@ section .section__img-8 {
     padding: 109px 135px;
 }
 
-.our-projects__top .title{
+.our-projects__top .title {
     margin-top: 3px;
 }
 
@@ -1863,12 +1870,13 @@ section .section__img-8 {
     margin-right: -17px;
 }
 
-.section {
-    padding: 95px 135px
+.section .section__content {
+    max-width: 708px
 }
 
-.section .section__content {
-    max-width: 715px
+.section__content .title {
+    max-width: 467px;
+    margin-bottom: 19px;
 }
 
 .section .section__content-title {
@@ -1886,11 +1894,12 @@ section .section__img-8 {
 }
 
 .section .section__content-list {
-    margin: 40px 0
+    margin: 40px -3px;
+    margin-bottom: 23px;
 }
 
 .section .section__content-list li {
-    padding: 2px 0
+    padding-bottom: 13px;
 }
 
 .title-section__links--mobile {
@@ -1903,10 +1912,20 @@ section .section__img-8 {
     margin-top: 10px
 }
 
+.title-section__links {
+    margin-top: 11px;
+    font-size: 15px;
+}
+
+.title-section__links p {
+    margin-bottom: 15px;
+}
+
 .section-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px
+    gap: 2px;
+    justify-content: space-between;
 }
 
 .section-images .section-images__item {
@@ -1929,11 +1948,11 @@ section .section__img-8 {
     background: #828282;
     opacity: .16;
     margin: 0 135px;
-    margin-bottom: 140px
+    margin-bottom: 150px
 }
 
 .section-swiper {
-    padding-left: 200px;
+    padding-left: 202px;
     margin-bottom: 190px
 }
 
@@ -1974,7 +1993,26 @@ section .section__img-8 {
 
 .title-section {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 99px 135px;
+}
+
+.text-section__first{
+    padding: 90px 135px;
+    padding-bottom: 99px;
+}
+
+.text-section__two{
+    padding: 90px 135px;
+}
+
+.text-section__first .section__content-title {
+    margin-bottom: 15px;
+}
+
+.text-section__first .section__content-text {
+    width: 716px;
 }
 
 .one-project .section {
