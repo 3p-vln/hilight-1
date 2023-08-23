@@ -2536,6 +2536,15 @@ section .section__img-8 {
     .about-us__stats {
         gap: 108px;
     }
+
+    .text-section__first .section__content-text {
+        width: 600px;
+    }
+
+    .section-swiper img {
+        width: 316px;
+        height: 390px;
+    }
 }
 
 @media (max-width:1250px) {
@@ -2991,6 +3000,11 @@ section .section__img-8 {
     .about-us__stats-content .text {
         margin-top: 15px;
     }
+
+    .section-swiper img {
+        width: 316px;
+        height: 390px;
+    }
 }
 
 @media (max-width:1000px) {
@@ -3088,6 +3102,19 @@ section .section__img-8 {
 
     .input {
         width: 366px;
+    }
+
+    .title-section {
+        padding: 99px 0;
+    }
+
+    .text-section__first,
+    .text-section__two {
+        padding: 90px 0;
+    }
+
+    .section-swiper {
+        padding-left: 120px;
     }
 }
 
@@ -3507,6 +3534,11 @@ section .section__img-8 {
     .about-us__stats--second .about-us__stats-numbers {
         gap: 20px;
     }
+
+    .section-swiper img {
+        width: 255px;
+        height: 330px;
+    }
 }
 
 @media (max-width:760px) {
@@ -3716,6 +3748,15 @@ section .section__img-8 {
 
     .about-us__bot {
         padding: 136px 0;
+    }
+
+    .text-section__first .section__content-text {
+        width: 435px;
+    }
+
+    .section-swiper img {
+        width: 290px;
+        height: 362px;
     }
 }
 
@@ -4137,6 +4178,24 @@ section .section__img-8 {
 
     .about-us__stats-container .main__philosophy-cite {
         min-width: 330px;
+    }
+
+    .text-section__first .section__content-text {
+        width: 324px;
+    }
+
+    .section-line {
+        margin-bottom: 90px;
+    }
+
+    .section-swiper {
+        padding-left: 30px;
+    }
+
+    .section-swiper img {
+        width: 270px;
+        height: 339px;
+        margin-top: 20px;
     }
 }
 
