@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Страница не найдена</title>
+    <title>Вход</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +13,6 @@
         rel="stylesheet">
         
 </head>
-
 <body>
     <header class="header">
     <div class="first-line">
@@ -215,24 +213,34 @@
     </div>
 </section>
 
-    <div class="not-found">
+    <section class="bread-crumbs bread-crumbs_gray">
         <div class="container">
-            <div class="not-found__content">
-                <div class="not-found__img">
-                    <picture><source srcset="img/404.webp" type="image/webp"><img src="img/404.png"></picture>
-                </div>
-                <p>Страница не найдена</p>
-                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
-                        fill="none">
+            <div class="bread-crumbs__content">
+                <a href="index.html" class="bread-crumbs__main">Главная</a>
+                <div class="bread-crumbs__arr">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
-                            d="M5.83332 12.8335L6.65 12.0168L2.21665 7.5835H14V6.41685H2.21665L6.65 1.9835L5.83332 1.16685L0 7.00017L5.83332 12.8335Z"
-                            fill="#337D5A" />
+                            d="M7.00001 11L6.3 10.3L10.1 6.5H0V5.50002H10.1L6.3 1.7L7.00001 1.00002L12 6.00001L7.00001 11Z"
+                            fill="white" />
                     </svg>
-                    Вернуться на Главную страницу
-                </a>
+                </div>
+                <a href="product-card.html" class="bread-crumbs__page">Вход</a>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="entry-form">
+        <div class="container">
+            <form class="entry-form__content">
+                <h2>Войти в личный кабинет</h2>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Пароль">
+                <a href="miss-password.html" class="entry-form__miss-password"> Забыли пароль?</a>
+                <a href="#" class="entry-form__btn">Войти</a>
+                <a href="#" class="entry-form__registration">Регистрация</a>    
+            </form>
+        </div>
+    </section>
 
     <section class="contacts" id="contacts">
     <div class="container">
@@ -354,6 +362,9 @@
     </div>
 </footer>
 
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
 
+</body>
 </html>
